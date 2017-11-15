@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/autumbackground"
+    tools:context="com.fruitstudio.healingbytips.View.LogIn.LogInActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:cardCornerRadius="10dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/tranColorDack"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            >
+            <!--<ImageView-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:src="@drawable/logoapp"-->
+            <!--android:layout_gravity="center"-->
+            <!--/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký"
+                android:textColor="#FFF"
+                android:textSize="40sp"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thật đơn giản khi đăng ký với chúng tôi.Bạn có thể cập nhật thêm các thông tin của mình sau khi đăng ký thành công!"
+                android:textColor="#CCC"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/edEmailRegister"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/ic_perm_identity_white_24dp"
+                android:layout_marginTop="20dp"
+                android:hint="Email"
+                android:textColorHint="#CCC"
+                android:paddingRight="10dp"
+                android:drawablePadding="10dp"
+                android:textColor="#FFF"
+                android:background="@drawable/custom_edittext_login"
+                android:inputType="text"
+                android:maxLines="1"
+                android:lines="1"
+                />
+
+            <EditText
+                android:id="@+id/edMatKhauRegister"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/ic_lock_outline_white_24dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:hint="Mật khẩu"
+                android:textColorHint="#CCC"
+                android:drawablePadding="10dp"
+                android:textColor="#FFF"
+                android:background="@drawable/custom_edittext_login"
+                android:maxLines="1"
+                android:lines="1"
+                />
+
+            <EditText
+                android:id="@+id/edNhapLaiMatKhauRegister"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/ic_lock_outline_white_24dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:hint="Nhập lại mật khẩu"
+                android:textColorHint="#CCC"
+                android:drawablePadding="10dp"
+                android:textColor="#FFF"
+                android:background="@drawable/custom_edittext_login"
+                android:maxLines="1"
+                android:lines="1"
+                />
+
+            <Button
+                android:id="@+id/btnDangKy"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Đăng ký"
+                android:textAllCaps="false"
+                android:background="@drawable/custom_button_login"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFF"
+                android:paddingLeft="5dp"
+                android:paddingRight="20dp"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

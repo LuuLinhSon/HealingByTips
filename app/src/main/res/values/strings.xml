@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Chữa bệnh bằng mẹo</string>
+    <string name="quenmatkhau">Quên mật khẩu?</string>
+    <string name="dangkymoi">Đăng ký mới!</string>
+    <string name="facebook_app_id">1467319486695667</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="full_banner_unit_id">ca-app-pub-9283865971254185/4780565610</string>
+    <string name="titlerate">Dành một chút thời gian đánh giá ứng dụng của chúng tôi nhé!</string>
+    <string name="title">Đánh giá</string>
+    <string name="btnlate">Để sau</string>
+    <string name="btnthank">Không!Cảm ơn</string>
+    <string name="btnok">Đánh giá</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.fruitstudio.healingbytips.View.Popup.PopupChangeName">
+
+    <EditText
+        android:id="@+id/edChangeName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:maxLines="1"
+        android:lines="1"
+        android:hint="Tên mới"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_button_login"
+        android:text="Ok"
+        android:textColor="#FFF"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>

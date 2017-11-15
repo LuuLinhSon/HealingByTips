@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center|right"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#FFF"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:srcCompat="@drawable/ic_like"
+                            />
+                        <TextView
+                            android:id="@+id/tvSoLuotThich"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500"
+                            />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#CCC"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:srcCompat="@drawable/ic_unlike"
+                            android:layout_marginLeft="10dp"
+                            />
+                        <TextView
+                            android:id="@+id/tvSoLuotKhongThich"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500"
+                            />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#CCC"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:srcCompat="@drawable/ic_comment"
+                            android:layout_marginLeft="10dp"
+                            />
+                        <TextView
+                            android:id="@+id/tvSoLuotBinhLuan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerBinhLuan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="60dp"
+                ></android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBinhLuan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorDaCam"
+            android:text="Bình luận"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

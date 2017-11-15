@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#C62828</item>
+        <item name="colorPrimaryDark">#B71C1C</item>
+        <item name="colorAccent">#1B5E20</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+    </style>
+
+    <style name="Theme_Dialog" parent="Theme.AppCompat.Light.Dialog">
+        ...
+        <item name="android:windowMinWidthMajor">96%</item>
+        <item name="android:windowMinWidthMinor">96%</item>
+    </style>
+
+    <style name="capsfalse" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#1B5E20</item>
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="android:background">#9E9E9E</item>
+    </style>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="6dp"
+        android:weightSum="10"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imAvatarBinhLuan"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top"
+                />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            >
+
+            <TextView
+                android:id="@+id/tvTenNguoiBinhLuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tvTieude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiêu đề"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="true"
+                />
+            <TextView
+                android:id="@+id/tvNoiDungBinhLuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nội dung"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            >
+            <ImageView
+                android:id="@+id/imLike"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|center"
+                />
+            <TextView
+                android:id="@+id/tvNgayDang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textSize="12sp"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

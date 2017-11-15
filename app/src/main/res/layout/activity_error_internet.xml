@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fruitstudio.healingbytips.View.Error.ErrorInternetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/wifi"
+            android:layout_gravity="center"
+            android:tint="#9E9E9E"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Không có kết nối internet.Vui lòng kết nối lại"
+            android:textColor="#9E9E9E"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnThuLai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Thử lại"
+        />
+
+
+</FrameLayout>

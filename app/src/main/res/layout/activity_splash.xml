@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.fruitstudio.healingbytips.View.Splash.SplashActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imLogoCompany"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/logocompany"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:id="@+id/lnLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:id="@+id/imLogoApp"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:src="@drawable/logoapp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0"
+            android:textColor="#FFF"
+            android:id="@+id/tvVersion"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

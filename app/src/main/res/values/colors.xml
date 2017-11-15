@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C62828</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#64DD17</color>
+    <color name="tranColorDack">#66000000</color>
+    <color name="tranColorRed">#66B71C1C</color>
+    <color name="colorGoogle">#F44336</color>
+    <color name="colorFacebook">#189aca</color>
+    <color name="colorGray">#CCC</color>
+    <color name="colorWhile">#FFF</color>
+    <color name="colorYalow">#FFEB3B</color>
+    <color name="colorNavigation">#364c67</color>
+    <color name="colorTextNavigation">#95b0d3</color>
+    <color name="colorDaCam">#E65100</color>
+    <color name="colorButton">#558B2F</color>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fruitstudio.healingbytips">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".View.Splash.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.LogIn.LogInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Error.ErrorInternetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Register.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Reminder.ReminderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Main.CaNhan.CaNhanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Popup.PopupChooseAvatar"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".View.Popup.PopupChangeName"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Dialog" />
+        <activity android:name=".View.Main.ChiTietBenh.ChiTietBenhActivity" />
+        <activity android:name=".View.BinhLuan.ThemBinhLuanActivity" />
+        <activity android:name=".View.TimKiem.TimKiemActivity"></activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="facc15cd79fdabb46448a64613c6248004a51f91" />
+    </application>
+
+</manifest>
